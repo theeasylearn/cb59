@@ -1,0 +1,56 @@
+what is string?
+String means words like your name surname city address etc.
+in c language string is sequence of letters that always ends with \0 (null). 
+some example of string 
+name,surname,address city etc 
+
+there is no builtin datatype in to store string c language. so we use 1 dimension array of character to store string.
+
+how to create string (1d array of char)?
+char name[32],surname[32],address[512];
+
+how to take input from user in string usinc scanf? 
+example
+1st we have to create 1d array of character type
+char name[32] 
+printf("enter your name"); //message 
+scanf("%s",name); 
+
+scanf function can accept string without space from user. if user give space scanf function will stop.
+
+to accept string with sapce we must use gets function
+
+example 
+
+string address[512]
+
+printf("enter your address");
+gets(address); 
+
+how to display string?
+we can display string either using printf function or using puts function
+
+example
+printf("%s",name);
+puts(address);
+
+
+how to store many student names. to store many names (string) we can create array of string. 2d array of char is 1d array of string 
+how to create 2d array of char?
+char name[6][32];
+
+how to create array of string?
+-----------------------------------
+1d array of char type is String. for example char name[32]. but this char array can store only one string. to store many string, we have to create 2d array of char type in 2d array of character type, 1st dimension is no of string means how many individual string we want store while 2nd dimension is used to give size of each string. means how many letters each string can store. let us understand by example 
+    we want store 10 students name. each name can be of 32 characters
+
+    char name[10][32]; 
+    in this name 2d array we can store 10 individual student name each can be of 32 characters long.
+
+how to take input from user in 2d char array 
+for example we want to accept 1st student name 
+printf("Enter 1st student name");
+scanf("%s",name[0]); // we must give 1st dimension not second dimension
+for example we want to accept 2nd student name
+printf("Enter 2nd student name");
+scanf("%s",name[1]); // we must give 1st dimension not second dimension

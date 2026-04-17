@@ -1,0 +1,75 @@
+What is functions?
+    function is named program in c language that can be executed/run/called from main program as well as other functions.
+    each and every function has 
+        1 return type (optional)
+        2 name (compulsory)
+        3 inputs (optional)
+        4 body (block of code) (compulsory)
+
+    each and every function should do only one task.
+    we create function not not to repeat same code in program. 
+    if we repeat code there will be many issue while updating code. 
+    but if we use functions then  code will be shorter, easy to understand and easy to change. 
+    function can return at most 1 value.
+
+    types of function
+        Library function 
+            functions which are provide by c language Library is called Library function 
+            such as printf, scanf, fflush(stdin) etc.
+
+        User defined function (U.D.F) 
+            function developed by developer(user) is called user defined function.
+            1st we have to create user define function, then only we can use it. 
+
+            there are 4 types of U.D.F.
+                1   without return value without argument(input) function 
+                    function that return nothing and has no argument is called without return value without argument function 
+
+                2   without return value with argument(input) function 
+                    function that return nothing and has one or more arguments is called without return value with argument function.    
+
+                3   with return value without argument function
+                    function that return value and has no arguments is called with return value without argument function
+
+                4   with return value with argument function 
+                    function that return value and has one or more arguments is called with return value without argument function.
+
+        how to create/define user defined function 
+        syntax 
+        -----------------------------------
+        return type(int/float/char/void) function-name(arguments)
+        {
+            code
+                variable declare
+                decision making 
+                loop 
+                function call 
+        }
+
+        how to use/call/run/execute 
+        syntax
+        ---------------------------------
+        function-name(arguments);
+what is pass by value in function. 
+    when we pass arguments in function, function always received copy of arguments. it means we change value of arguments, it will not change original variables because function received copy of argument not actual variable that is called pass by value. 
+
+    always function can return at most one value 
+
+what is pass by reference?
+ pass by reference means passing address of variable when we call function. in that case function should have argument name starting with *(astrik) when we define function. by doing this we can directly modify arguments value into function and it will update original variable's value. 
+
+ it is useful when we want to create function that return multiple value. 
+
+ 
+what is recursion?
+---------------------
+when function call it self repeatedly until some condition is evaluated as false, is called recursion.
+recursion is difficult to understand therefore change. it must last option to solve any problem as it very resource hungry approach means it will use too much processing power and memory. 
+
+
+rules 
+-------------------------------------------------------------------------------
+1) each and every function in recursion will always complete. it will not remain uncomplete. 
+2) function called in recursion will always complete in reverse order of calling.
+3) each argument & we pass in recursion & local variables created in function occupy separate memory location for each function call.
+4) must have some condition which stop recursion

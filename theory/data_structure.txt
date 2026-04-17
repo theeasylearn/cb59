@@ -1,0 +1,15 @@
+what is data structure?
+data structure means mechanism to store and retrive/process the data in specific manner as per the requirement. 
+there are so many different types of data structure used in computer science field. to name few 
+
+1) Stack 
+2) Queue 
+3) Circular Queue 
+4) Double ended queue 
+5) Binary Tree 
+
+Stack 
+-----------------------
+Stack is one type of data structure in which all the items(value) are inserted and removed only from one end which top end. stack is one type of LIFO data structure. LIFO means Last in first out. in stack, insert operation is called push operation and remove operation is call pop operation.  if stack if full then we can not push new value and it is called overflow operation. and if stack is empty & we try to remove value from it then it is called underflow operation. stack can be implemented either using an array or using Linked list. 
+
+

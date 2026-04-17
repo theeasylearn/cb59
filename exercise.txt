@@ -1,0 +1,6 @@
+1   write a program to convert user grams into kilograms 
+2   write a program to convert user centimeter into millimeter   
+3   write a program to convert user miles into kilometer   
+4   write a program to convert user bytes into kilobytes  
+5   write a program to convert user bytes into megabytes  
+6   write a program to convert user bytes into gigabytes  

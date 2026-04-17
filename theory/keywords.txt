@@ -1,0 +1,34 @@
+Keyword     Meaning / Use
+-----------------------------------------------
+auto        Declares automatic (local) variables (default storage class)
+break       Exits from a loop or switch
+case        Defines a branch in a switch statement
+char        Declares a character variable (1 byte)
+const       Declares a read only variable as constant (cannot be changed)
+continue    Skips current loop iteration and moves to next
+default     Defines the default branch in a switch
+do          Used with while to create a do-while loop
+double      Declares a double-precision floating-point variable
+else        Defines an alternative block in if-else
+enum        Defines a set of named integer constants
+extern      Declares a variable/function that is defined elsewhere
+float       Declares a floating-point variable
+for         Looping statement (initialization, condition, increment)
+goto        Jumps to a labeled statement (not recommended)
+if          Decision-making statement
+int         Declares an integer variable
+long        Declares a long integer variable
+register    Requests variable to be stored in CPU register for faster access
+return      Returns a value from a function
+short       Declares a short integer variable
+signed      Declares a signed variable (default for int/char)
+sizeof      Gives the size (in bytes) of a data type or variable
+static      Declares static variables (retain value between function calls)
+struct      Defines a structure (collection of different data types)
+switch      Multi-way decision-making statement
+typedef     Creates a new name (alias) for a data type
+union       Defines a union (share same memory for all members)
+unsigned    Declares an unsigned variable (no negative values)
+void        Declares no return type for functions or empty parameter list
+volatile    Tells compiler variable can be changed unexpectedly (e.g., hardware)
+while       Looping statement (condition checked first)
