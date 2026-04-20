@@ -2,7 +2,8 @@ what are the operators?
 ------------------------------------------
 some special symbols which are used to do some operations are called operators.
 
-let us see few very common operators like + - * / %. these all are operators used in mathematical process. 
+let us see few very common operators like + - * / %. 
+these all are operators used in mathematical process. 
 
 there are 2 main categories of operators
     binary operators
@@ -32,17 +33,24 @@ use wise categories of operators
   examples are + - * / %
  
 2) relational operators / comparison 
---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
   it is used to compare variables/value. it always give result in terms true (1) or false(0)
+    a = 10 , b = 20, c = 10
+  1 a == c      used to check 2 variable has same value or not  
+  2 a != b      used to check 2 variable has different value or not  
+  
+  3 a < b    used to check whether left side variable is less then right side variable or not 
+  4 a > b    used to check whether right side variable is greater then left side variable or not 
+  5 a <= c    used to check left side variable is less then or equal to right side variable
+  6 a >= c    used to check right side variable is greater then or equal to left side variable
 
-  1 == used to check 2 variable has same value or not  
-  2 != used to check 2 variable has different value or not  
-  3 a<b  used to check whether left side variable is less then right side variable or not 
-  4 a>b  used to check whether right side variable is greater then left side variable or not 
-  5 a<=b used to check left side variable is less then or equal to right side variable
-  6 a>=b used to check right side variable is greater then or equal to left side variable
+   if expressions has relational operator, it is called relational expressions. 
 
 3) logical operators.
+    there may be some situation where we need to use multiple relational operations in one line. 
+    a < b logical operator b < c 
+    in above line we must use logical operator && or || between two relational expressions.
+
     logical operators are used to join two or more relational expressions and it also returns either 1 or 0. there are 3 logical operators
          for example 
          (1)   (2)
