@@ -12,9 +12,9 @@ sometimes we need to execute few line of code conditionally. in such case we nee
     here we check some condition (relational expression). if condition is true then only code block given inside {} pair will execute. 
     syntax 
     -------------------------------------------------
-        if (relational expression)
+        if(relational expression) 
         {
-
+                  
         }
 
     example
