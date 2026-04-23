@@ -7,6 +7,18 @@
 
 decision making exercise 
 -----------------------
+if exercise 
+--------------------------------
 1) write a program to accept gujarati month number from user. then display name of festival come in given month 
 
 2) write a program to accept english month number from user. and display how many days given month has 
+
+if else exercise 
+----------------------------------
+1) write a program to findout whether given year is sliver jubilee or not from current year and  marriage year 
+
+2) write a program to findout whether given year is golden jubilee or not from current year and  marriage year 
+
+3) write a program to findout which shape is lesser in area from given length and width. 
+
+
