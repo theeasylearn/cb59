@@ -21,4 +21,32 @@ if else exercise
 
 3) write a program to findout which shape is lesser in area from given length and width. 
 
+if else ladder 
+1) write a program to accept 5 subject marks from user. 
+make total of it  
+find percentage using total 
+and display grade as per below rules 
+------------------------------------
+percentage      Grade 
+>90             Excellent 
+>80             A+ 
+>70             A 
+>60             B 
+>50             C 
+>40             Pass 
+otherwise       Poor 
 
+2) write a program to display Greeting message based upon time given by user 
+6.00 to 11.59
+show message Good Morning
+
+
+Good Afternoon
+12 to  17
+show message : Good Afternoon 
+
+17.01–22.00 
+show message : Good Evening
+
+otherwise 
+show message :  good night 
