@@ -50,3 +50,28 @@ show message : Good Evening
 
 otherwise 
 show message :  good night 
+
+3) write a program to findout what kind of fever user has. based upon below criteria 
+input : body temperature as fahrenheit 
+
+temperature       Fever Type
+--------------------------------  
+99.1∘F−100.4∘F	  Low-grade	
+100.6∘F−102.2∘F	  Moderate
+102.4∘F−105.8∘F	  High-grade	
+>106.0∘F	      Hyperpyrexia
+
+
+4) write a program to findout obesity level of person in india from given height and weight. 
+
+accept weight and height (foot & inch)
+calculate BMI (Body to mass index)
+display Obesity level 
+
+Category	        BMI (kg/m2)	        
+-----------------------------------------------------
+Underweight	        <18.5	           
+Normal	            18.5−22.9	        
+Overweight	        23.0−24.9	        
+Obesity Class I	    25.0−29.9	        
+Obesity Class II	≥30.0	         
