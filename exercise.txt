@@ -75,3 +75,12 @@ Normal	            18.5−22.9
 Overweight	        23.0−24.9	        
 Obesity Class I	    25.0−29.9	        
 Obesity Class II	≥30.0	         
+
+
+nested decision making
+
+1) write a program to findout given year is leap year or not. 
+https://www.wikihow.com/Calculate-Leap-Years
+
+
+2) write a program to findout which person is heaviest person in 3 person. accept 3 person weight from user 
