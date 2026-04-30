@@ -84,3 +84,19 @@ https://www.wikihow.com/Calculate-Leap-Years
 
 
 2) write a program to findout which person is heaviest person in 3 person. accept 3 person weight from user 
+
+
+3) write a program to accept 3 color value from user for red, green & blue 
+if the range of each and every color is in between 0 to 255. display message it is valid color otherwise display message it is not valid color 
+
+
+4) write a program to accept month no from user and display name of season 
+as per below criteria 
+
+December – February	            Winter
+March – May	                    Summer
+June – September	            Monsoon
+October – November	            Post-Monsoon
+
+make sure input must be in range of 1 to 12. in case other input display message invalid month number. 
+
