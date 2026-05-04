@@ -1,28 +1,32 @@
 looping statement
 ------------------------------------------
 in program, there may be situations where we need to repeat block of code multiple times. in such case we might use loop. loop has two part 
-    1) condition means relatioanal expression (control how many times loop will run )
+    1) condition means relational expression (control how many times loop will run )
     2) body means block of code (which execute many times)
 
-each loop has condition. condition means relational expression if it is evaluated as true then block of code will be executed once. then condition is automatically checked again, if true again block of code will execute. this process will continue until condition is evaluated as false. 
+each loop has condition. condition means relational expression, if it is evaluated as true then block of code will be executed once. then condition is automatically checked again, if true again block of code will execute. this process will continue until condition is evaluated as false. 
 
 there are 2 types of loop 
     1) entry control loop 
+        in entry control loop, 1st condition is evaluated, if it is true loop body will execute otherwise not. if condition is true loop body will run again 
+
         1.1 while loop 
         1.2 for loop 
     2) exit control loop
+        in exit control loop, body of the loop will execute once, then condition is evaluated. if condition is true loop body will run again 
         2.1 do while loop 
 
 1) while loop 
     in while loop we check condition after while keyword. if condition is true then code block given inside { } pair will execute once. then again condition will be checked if condition is true true then code block given inside {} execute again. this will continue until condition is false. 
-
+    
     syntax
     -------------------------------
-    while (condition(relational expression))
+    while (relational expression) # < > == <= >= !=
     {
-        // code block will execute if condition is true 
+        // code block will execute if relational expression is true 
     }
 
+    
 
 2) for loop 
 ----------------------------------------------
