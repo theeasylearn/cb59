@@ -108,3 +108,25 @@ loop
 5) 1 2 4 7 11 16 ..... 100
 6) 1 4 9 16 25 36  ..... 1000
 7) 1 8 27 64 ...... 10000
+
+8) write a program to findout power of given base and exponent 
+base = 2 
+exponent = 5
+process : 2 x 2 x 2 x 2 x 2 
+output = 32
+
+9) write a program to findout whether given number is perfect number or not. 
+these are sum perfect number 
+6
+28
+496
+8128
+33550336
+
+what are divisor of 
+-------------------------------
+process 
+1+2+3 =       6 
+1+2+4+7+14 = 28
+
+
