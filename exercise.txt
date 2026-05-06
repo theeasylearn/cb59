@@ -129,4 +129,18 @@ process
 1+2+3 =       6 
 1+2+4+7+14 = 28
 
+for loop 
+--------------------------------
+1) write a program to findout given number is prime number or not 
+2) write a program to findout all the days in given month 
+    input : 1
+    output : 1 2 3 .... 31
+
+    input : 2
+    output : 1 2 3 .... 29
+
+    input : 4
+    output : 1 2 3 .... 30
+
+
 

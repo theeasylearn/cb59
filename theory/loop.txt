@@ -30,13 +30,14 @@ there are 2 types of loop
 
 2) for loop 
 ----------------------------------------------
-like while loop, for loop is also entry control loop. means here also condition is checked before loop execute, if condition is true code block given {} pair will execute. but for loop is different from while loop in way that, we give initial value to variable, condition and increment/decrement in single line. 
+like while loop, for loop is also entry control loop. means here also relational expression is checked before loop execute, if relational expression is true code block given {} pair will execute. but for loop is different from while loop in way that, we give initial value to variable, condition and increment/decrement in single line. 
 syntax
 
 for(initialization;condition;increment/decrement)
 {
     //body of loop 
 }
+
 1st time, initialization is done and then condition is checked
 2nd time onwards, 1st increment/decrement happens and then condition is checked
 example
