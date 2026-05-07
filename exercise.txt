@@ -142,5 +142,8 @@ for loop
     input : 4
     output : 1 2 3 .... 30
 
-
+do while 
+-----------------
+write a program to print ascii table of capital letter A TO Z
+ 
 

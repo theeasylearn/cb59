@@ -48,21 +48,21 @@ for(;;)
 
 3) do while loop 
   --------------------------------------
-  do while loop is exit control loop. do while always execute at least once. then condition is checked. if condition is true loop body will execute again and so on. 
+  do while loop is exit control loop. do while always execute at least once. then relational expression is checked. if relational expression is true loop body will execute again and so on. 
   syntax 
 
   do 
   {
     
-  }while(relational expression);  
+  } while(relational expression);  
   
   example 
   //100 90 80 70 60 .... 10
   count = 100;
   do 
   {
-     printf("%d",count); //80
-     count=count - 10; //80
+     printf("%d",count); //90
+     count= count - 10; //80
   }while(count>=10); //0>=10
 printf("\n good bye");
 
