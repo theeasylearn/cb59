@@ -147,3 +147,29 @@ do while
 write a program to print ascii table of capital letter A TO Z
  
 
+nested looop 
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
+
+
+A 
+A B 
+A B C
+A B C D
+A B C D E 
+
+
+E
+E D
+E D C
+E D C B
+E D C B A
+
+
+1
+2 3
+4 5 6 
+7 8 9 10
