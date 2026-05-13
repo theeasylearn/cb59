@@ -1,13 +1,14 @@
 what is limitation of normal variable?
 ----------------------------------------
 normal variable can store only one value at a time. if we store another value, previous value will be lost. many times we need to store lot of related values then we have to create many variable. more variables means more complex program and complex program are difficult to understand and change. 
-we must try best to write easy to understand to code. to do that we need to declare less variables. 
+we must try best to write program easy to understand. to do that we need to declare less variables. 
 
+when we can use array?
 when we need to store many related values of same type, we should use array.
 
 what is array/List?
 --------------
-array is special type of variable in which we can store multiple values. each value in array has same name but unique position. 1st value in array is at 0th position, 2nd value in array is at 1st position. it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. index can be given directly or using variable's value
+array is special type of variable in which we can store multiple values. each value in array has same name but unique it also has unique position. 1st value in array is at 0th position, 2nd value in array is at 1st position. it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. index can be given directly or using variable's value
 
 all the value in array must be same type in c language.
 size of the array must be set at the time of creating array. 
@@ -22,8 +23,11 @@ datatype array[size];
 example
 int age[5];
 
-how to store/change value in array?
+how to store/change value in array at 1st position?
 age[0] = 25;
+
+how to store/change value in array at 2nd position?
+age[1] = 25;
 
 how to access/display array
 printf("%d",age[0]);
