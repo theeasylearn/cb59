@@ -191,3 +191,8 @@ E D C B A
         2  1  2
       1  2  1  2
     1  2  1  2  1
+
+array 
+----------
+1) write a program to findout coolest day in january in bhavnagar from array which has temperature
+2

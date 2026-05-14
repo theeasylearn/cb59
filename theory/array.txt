@@ -8,12 +8,12 @@ when we need to store many related values of same type, we should use array.
 
 what is array/List?
 --------------
-array is special type of variable in which we can store multiple values. each value in array has same name but unique it also has unique position. 1st value in array is at 0th position, 2nd value in array is at 1st position. it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. index can be given directly or using variable's value
+array is special type of variable in which we can store multiple values. each value in array has same name but it has unique position also called index. 1st value in array is at 0th position, 2nd value in array is at 1st position. it means position start from 0. position of last value is size of array - 1. technically position is called index.  it must be positive integer value. index can be given directly or using variable's value
 
 all the value in array must be same type in c language.
 size of the array must be set at the time of creating array. 
 during execution of program size can not be changed. 
-we can change value at any given position. but we can not add & delete value. 
+we can change value at any given position. but we can not add & delete position. 
 
 how to create an array?
 syntax 
@@ -27,7 +27,7 @@ how to store/change value in array at 1st position?
 age[0] = 25;
 
 how to store/change value in array at 2nd position?
-age[1] = 25;
+age[1] = 50;
 
 how to access/display array
 printf("%d",age[0]);
