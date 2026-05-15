@@ -195,4 +195,7 @@ E D C B A
 array 
 ----------
 1) write a program to findout coolest day in january in bhavnagar from array which has temperature
-2
+
+2) write a program to count vowels in given string. 
+3) write a program to count digits in given string. 
+4) write a program to count vowels, consonant and digits and words in given string 

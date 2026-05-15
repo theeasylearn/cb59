@@ -1,15 +1,18 @@
 what is string?
 String means words like your name surname city address etc.
-in c language string is sequence of letters that always ends with \0 (null). 
+in c language, string is sequence of letters that always ends with \0 (null). 
 some example of string 
 name,surname,address city etc 
 
-there is no builtin datatype in to store string c language. so we use 1 dimension array of character to store string.
+there is no built-in (ready made) datatype in to store string c language. so we use 1 dimension array of character to store string.
 
 how to create string (1d array of char)?
 char name[32],surname[32],address[512];
 
-how to take input from user in string usinc scanf? 
+in 1d character array, each position(index) store only 1 letter and last position should have null. 
+
+how to take input from user in string using scanf? 
+we do not use & sign and position when we accept input in string using scanf function 
 example
 1st we have to create 1d array of character type
 char name[32] 
@@ -18,7 +21,7 @@ scanf("%s",name);
 
 scanf function can accept string without space from user. if user give space scanf function will stop.
 
-to accept string with sapce we must use gets function
+to accept string with space in between, we must use gets function.
 
 example 
 
