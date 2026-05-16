@@ -1,9 +1,9 @@
 // write a program to display ASCII TABLE for lowercase a to z
 /*
-Character         ASCII (American standard code for information interchange)
-a                 97
-b                 98
-c                 99
+Character         lower ASCII  uppercase ASCII 
+a                 97            65  =  32
+b                 98            66  =  32
+c                 99            67  =  32
 d                 100
 e                 101
 f                 102

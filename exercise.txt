@@ -199,3 +199,11 @@ array
 2) write a program to count vowels in given string. 
 3) write a program to count digits in given string. 
 4) write a program to count vowels, consonant and digits and words in given string 
+
+5) write a program to convert uppercase string into lower case string. 
+6) write a program to convert lowercase letter into uppercase and uppercase letter into lowercase. 
+   line = Good Morning 
+   line2 = gOOD mORNING
+
+7) 
+
