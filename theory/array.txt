@@ -36,20 +36,19 @@ how to take input from user into array
 scanf("%d",&age[0]);
 
 types of array 
-one dimensional array 
+one dimensional array (1D array)
     if array has only one dimensional then it is called one dimensional array. in short it is called 1D array. 1d array is vector
 
 two dimensional array 
-    if array is created in 2 dimension, it is called two dimensional array. 
-    2d array has 2 dimensional one is horizontal and 2nd is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. 2d array is matrix.
+    if array has 2 dimension, it is called two dimensional array. 
+    ind 2d array one dimension is horizontal and second is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines are called columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. whenever we try to access/change any value in 2d array, we have to use arrayname row position and column position.  we need to use 2 loop one for row and one for column. 
 
 --------------------------------
 how to create 2d array?
 syntax 
-    datatype array[row][column]
+    datatype array-name[row][column]
 example 
     int sales[4][7];
-
 how to take input from user in 2d array?
 scanf("%d",&sales[0][0]); //it will accept input from user and store in 0th row 0th column. 
 

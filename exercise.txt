@@ -205,5 +205,5 @@ array
    line = Good Morning 
    line2 = gOOD mORNING
 
-7) 
+
 
