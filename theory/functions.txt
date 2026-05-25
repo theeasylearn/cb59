@@ -1,13 +1,16 @@
 What is functions?
+-------------------------------------------------------------------------------------
     function is named program in c language that can be executed/run/called from main program as well as other functions.
     each and every function has 
+
         1 return type (optional)
         2 name (compulsory)
         3 inputs (optional)
         4 body (block of code) (compulsory)
 
     each and every function should do only one task.
-    we create function not not to repeat same code in program. 
+
+    we create function not to repeat same code in program. 
     if we repeat code there will be many issue while updating code. 
     but if we use functions then  code will be shorter, easy to understand and easy to change. 
     function can return at most 1 value.
