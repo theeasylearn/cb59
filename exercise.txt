@@ -208,3 +208,10 @@ array
 7) write a program to edit program no 51, calculate average sales of each product & display it 
 8) write a program to findout minimum value from float array statically initialized 
 9) write a program to calculate sum and average of float array statically initialized 
+
+2d array 
+1) write a program to transpose matrix into another matrix of float type. take input from user 
+
+2) write a program to do matrix multiplication of 2 matrix into 3rd matrix. take input from user 
+
+3) 
