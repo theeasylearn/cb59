@@ -53,6 +53,7 @@ What is functions?
         syntax
         ---------------------------------
         function-name(arguments);
+        
 what is pass by value in function. 
     when we pass arguments in function, function always received copy of arguments. it means we change value of arguments, it will not change original variables because function received copy of argument not actual variable that is called pass by value. 
 

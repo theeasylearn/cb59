@@ -214,4 +214,10 @@ array
 
 2) write a program to do matrix multiplication of 2 matrix into 3rd matrix. take input from user 
 
-3) 
+function
+----------------------------------------
+
+1) create function that will display addition, subtraction, multiplication, division of given 2 number.
+
+2) create function that will display square root of given number. 
+
