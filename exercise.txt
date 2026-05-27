@@ -221,3 +221,11 @@ function
 
 2) create function that will display square root of given number. 
 
+3) create function that return current date. use Library function.
+
+4) create function that return current time. use Library function.
+
+5) create function that return area of triangle using length and base given as input in function 
+
+6) create function that convert fahrenheit into celsius from given fahrenheit. 
+

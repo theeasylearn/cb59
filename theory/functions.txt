@@ -60,6 +60,7 @@ what is pass by value in function.
     always function can return at most one value 
 
 what is pass by reference?
+
  pass by reference means passing address of variable when we call function. in that case function should have argument name starting with *(astrik) when we define function. by doing this we can directly modify arguments value into function and it will update original variable's value. 
 
  it is useful when we want to create function that return multiple value. 
