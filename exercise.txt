@@ -229,3 +229,7 @@ function
 
 6) create function that convert fahrenheit into celsius from given fahrenheit. 
 
+recursion
+---------------------
+1) write a program to convert octal number into binary number 
+2) write a program to convert hexadecimal number into binary number

@@ -76,5 +76,5 @@ rules
 -------------------------------------------------------------------------------
 1) each and every function in recursion will always complete. it will not remain uncomplete. 
 2) function called in recursion will always complete in reverse order of calling.
-3) each argument & we pass in recursion & local variables created in function occupy separate memory location for each function call.
+3) each argument we pass in recursion & local variables created in function occupy separate memory location for each function call.
 4) must have some condition which stop recursion
