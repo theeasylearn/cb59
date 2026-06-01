@@ -1,7 +1,9 @@
 introduction to structure
--------------------------------
+--------------------------
 structure is used to store different type of related value in single variable.
-structure is special type of user defined datatype. structure is used to create special type of variable which has other variables of built in type or user defined type. each member variable in structure occupy separate(different) memory location
+structure is special type of user defined datatype. 
+structure is used to create special type of variable which has other variables of built in type or user defined type. it means we can use structure inside structure. 
+variables declared inside structure is called member variables. each member variable occupy separate(different) memory location.
 it is basically used to group related variable together. 
 first we have to create structure using  struct keyword then only we can create variable of structure type. 
 how to declare structure?
@@ -9,10 +11,13 @@ struct structure-name {
     //create variables (member variables)
     datatype name;
     datatype name;
+    datatype name;
     .............
 };
+
 we must create structure before void main function. 
 example
+
 struct student 
 {
     //member variable 
@@ -37,7 +42,18 @@ printf("%f",s1.weight);
 printf("%c",s1.gender);
 puts(s1.name);
 
+how to store many students data?
+one structure type variable can store only one student data. to store 5 student data, we have to create 5 structure type variable. have to take input & process & display it one by one manually which result into vary large code block. to overcome this problem, can can create array of structure. 
+
+How to create array of structure type variable>
+to create array of structure, 1st we create structure type variable and then inside [] we give size of structure variable.
+
 we can create array of structure. and we can also create array in structure.
+
+structure variable-name[size] 
+for example 
+struct student batch[5]
+
 -----------------------------------------------------------------------------------------
 What is Union?
     Union is also one type of user defined datatype. Union is also one kind of group related variable just like structure. but it has one big difference. members in union has shared memory location instead of different memory location. it means at a time only one member has data. if you store data in other member variable then data in previous member will be lost.
